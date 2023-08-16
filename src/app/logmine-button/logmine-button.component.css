@@ -1,0 +1,15 @@
+.backgroundColor {
+	background-color: rgba(255, 255, 255, 0.16);
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.colorActive {
+	color: rgb(51, 226, 154);
+}
+
+.colorInactive {
+	color: rgb(255, 255, 255);
+}

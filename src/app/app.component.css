@@ -1,0 +1,5 @@
+.main {
+	background: url("/assets/Background.png") no-repeat fixed center;
+	background-size: cover;
+	box-shadow: inset 5px 100px 200px 75px #0e0e0e;
+}

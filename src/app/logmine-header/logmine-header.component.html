@@ -1,0 +1,25 @@
+<body style="height: 20vh; width: 100%">
+	<section>
+		<div style="display: flex; justify-content: center; align-items: center; padding-top: 25px; gap: 10px">
+			<img src="assets/logo.png" alt="logo mine" />
+			<h1 style="font-size: 32px; font-family: 'Poppins'; font-weight: 700; line-height: 48px; color: white">MINE</h1>
+		</div>
+		<div style="display: flex; justify-content: center; align-items: center; padding-top: 45px">
+			<div (click)="selectButton('ENTRAR')">
+				<logmine-button label="ENTRAR" [active]="activeEntrar"></logmine-button>
+			</div>
+			<div (click)="selectButton('FORUM')">
+				<logmine-button label="FORUM" [active]="activeForum"></logmine-button>
+			</div>
+			<div (click)="selectButton('SOBRE')">
+				<logmine-button label="SOBRE" [active]="activeSobre"></logmine-button>
+			</div>
+			<div (click)="selectButton('MOJANG')">
+				<logmine-button label="MOJANG" [active]="activeMojang"></logmine-button>
+			</div>
+			<div (click)="selectButton('PERGUNTAS')">
+				<logmine-button label="PERGUNTAS" [active]="activePerguntas"></logmine-button>
+			</div>
+		</div>
+	</section>
+</body>

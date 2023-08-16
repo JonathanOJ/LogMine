@@ -1,0 +1,20 @@
+<button
+	[ngClass]="{
+		transparent: !active,
+		backgroundColor: active,
+		colorInactive: !active,
+		colorActive: active
+	}"
+	style="
+		width: 135px;
+		height: 35px;
+		border-radius: 6px;
+		font-family: 'Kufam';
+		font-weight: 600;
+		border: 0;
+		cursor: pointer;
+		font-size: 16px;
+	"
+>
+	{{ label }}
+</button>

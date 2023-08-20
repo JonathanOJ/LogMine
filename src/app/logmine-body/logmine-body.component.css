@@ -1,0 +1,107 @@
+.mainSection {
+	width: 450px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(38, 38, 38, 0.8);
+	border-radius: 12px;
+	border: 1px solid rgba(115, 115, 115, 0.5);
+}
+
+.imgLogo {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainDiv {
+	height: 55%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.labelInput {
+	color: white;
+	font-family: "Kufam";
+	font-weight: 500;
+	line-height: 24px;
+}
+
+input {
+	height: 24px;
+	border-radius: 3px;
+	border: 1px solid #414141;
+	padding: 7px 14px 7px 14px;
+	background-color: #262626;
+	color: #919191;
+}
+
+.inputDiv {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 0px 35px;
+}
+
+.buttonDiv {
+	height: 25%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.button {
+	width: 376px;
+	height: 48px;
+	background: linear-gradient(to right, #22ae75, #00874f);
+	border: 0;
+	border-radius: 6px;
+	box-shadow: inset 0px 2px 0px 1px rgba(255, 255, 255, 0.16);
+	font-family: "Kufam";
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: white;
+}
+
+.body {
+	height: 60vh;
+	padding: 0;
+	padding-top: 5vh;
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 425px) {
+	.mainSection {
+		width: 312px;
+		height: 485px;
+	}
+
+	.body {
+		height: 75vh;
+	}
+
+	.button {
+		width: 261px;
+	}
+
+	.inputDiv {
+		margin: 0px 25px;
+	}
+
+	.buttonDiv {
+		height: 20%;
+		gap: 30px;
+	}
+}

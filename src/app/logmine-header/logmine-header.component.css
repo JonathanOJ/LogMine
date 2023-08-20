@@ -1,0 +1,50 @@
+.logoMainDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 25px;
+}
+
+.logoTittle {
+	font-size: 32px;
+	font-family: "Poppins";
+	font-weight: 700;
+	line-height: 48px;
+	color: white;
+	padding-top: 5px;
+}
+
+.buttonDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 45px;
+}
+
+.menu {
+	display: none;
+}
+
+.logoDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+@media (max-width: 425px) {
+	.menu {
+		display: block;
+		color: white;
+	}
+
+	.buttonDiv {
+		display: none;
+	}
+
+	.logoMainDiv {
+		justify-content: space-between;
+		padding-left: 5vh;
+		padding-right: 5vh;
+	}
+}

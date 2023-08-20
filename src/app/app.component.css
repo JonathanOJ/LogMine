@@ -1,5 +1,5 @@
 .main {
-	background: url("assets/Background.png") no-repeat fixed center;
+	background: url("../assets/Background.png") no-repeat fixed center;
 	background-size: cover;
 	box-shadow: inset 5px 50px 400px 75px;
 }
@@ -7,7 +7,7 @@
 @media (max-width: 425px) {
 	.main {
 		background: linear-gradient(to bottom, rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.6), rgba(18, 18, 18, 0.8)),
-			url("assets/Background.png") no-repeat fixed center;
+			url("../assets/Background.png") no-repeat fixed center;
 		background-size: cover;
 		box-shadow: none;
 	}
